@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500&display=swap');
+
+body{
+    font-family: 'Barlow', sans-serif;
+
+}
+:root{
+    --primary:#FF4D01;
+}
+.header-top{
+    width: 100%;
+    height: 100vh;
+    background: url("../image/Frame.png") no-repeat center center / cover;
+}
+header nav{
+    width: 100%;
+}
+header nav ul{
+    width: 100%;
+}
+header nav ul li a{
+    color: white;
+    font-size: 18px;
+}
+header nav ul li .nav-btn{
+    padding: 17px 24px 19px 24px;
+    background: var(--primary);
+}
+
+header .headerH1{
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 400;
+    color: #fff;
+}
+.mt-165{
+    margin-top: 165px;
+}
+header .header-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    word-spacing: 5px;
+    margin-top: 20px;
+}
+.btn-primary{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 38px 26px 37px;;
+    background:var(--primary) ;
+    color: #fff;
+    transition: all 500ms;
+}
+.btn-primary:hover{
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.btn-light{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  padding: 25px 38px 26px 37px;
+  background: transparent;
+  border: 2px solid #fff;
+  transition: all 500ms;
+}
+.btn-light:hover{
+    background: var(--primary);
+    border: 2px solid var(--primary);
+}
+.mt-35{
+    margin-top: 40px;
+}
+/* section starting ====================================== */
+
+section{
+    width: 100%;
+    height: 100vh;
+}
